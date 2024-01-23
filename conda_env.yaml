@@ -1,0 +1,15 @@
+name: DetectionFraud
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - click
+      - mlflow
+      - kaggle
+      - polars
+      - catboost
+      - optuna
+      - pandas
+      - sklearn
